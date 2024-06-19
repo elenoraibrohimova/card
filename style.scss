@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #08070D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .box1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: linear-gradient(#253DAC, #2E8EDD);
+        position: absolute;
+        top: 5%;
+        left: 30%;
+        text-align: center;
+    }
+
+    .box2 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: linear-gradient(to right, orangered, orange);
+        position: absolute;
+        bottom: 5%;
+        right: 30%;
+        text-align: center;
+    }
+
+    .card {
+        width: 310px;
+        height: 450px;
+        border-radius: 15px;
+        border: 1px solid white;
+        z-index: 3;
+        background-color: rgba(255, 255, 255, 0.208);
+        backdrop-filter: blur(8px);
+        padding: 30px;
+        text-align: center;
+
+    }
+
+    .pic {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        background-color: gray;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .pic img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+
+
+    }
+
+    .buton{background-color: red;
+        margin-left: 50px;
+
+    }
+.icon{
+gap: 15px;
+text-align: center;
+font-size: 40px;
+margin-top: 15px;
+background-color: gray;
+
+}
+    .button1 {
+        width: 100px;
+        height: 30px;
+        background-color:grey ;
+        backdrop-filter: blur 8px;
+        background-color: grey;
+     
+
+    }
+.facebook{
+   width: 100px; 
+   height: 100px;
+   b
+
+}
+
+
+
+}
